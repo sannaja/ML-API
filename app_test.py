@@ -3,7 +3,6 @@ from flask_restful import Resource, Api, reqparse
 from sklearn.externals import joblib
 import pandas as pd
 import numpy as np
-#from sklearn.linear_model import LogisticRegression
 schoolname_array = ["กมลาไสย", "กันทรลักษ์วิทยา", "กัลยาณวัตร", "กาญจนาภิเษกวิทยาลัย",
                     "กาฬสินธุ์พิทยาสรรพ์", "กุมภวาปี", "ขอนแก่นวิทยายน", "ขอนแก่นวิทยายน", "ขอนแก่นวิทยายน ", "ขามแก่นนคร",
                     "จันทรุเบกษาอนุสรณ์", "จุฬาภรณราชวิทยาลัย เลย", "ชนบทศึกษา", "ชัยภูมิภักดีชุมพล", "ชุมพลโพนพิสัย", "ชุมแพศึกษา",
