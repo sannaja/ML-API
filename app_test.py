@@ -2,7 +2,6 @@ from flask import Flask, request
 from flask_restful import Resource, Api, reqparse
 from sklearn.externals import joblib
 import pandas as pd
-import json
 import numpy as np
 #from sklearn.linear_model import LogisticRegression
 schoolname_array = ["กมลาไสย", "กันทรลักษ์วิทยา", "กัลยาณวัตร", "กาญจนาภิเษกวิทยาลัย",
